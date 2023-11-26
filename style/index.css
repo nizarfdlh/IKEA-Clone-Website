@@ -6,14 +6,27 @@
   }
 
   .banner-nizar{
-    background-color: #111111;
+    background-color:#111111;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
     height: 40px;
     }
+  
+  .banner-nizar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    list-style: none;
+  }
 
-  #banner-text{
+  .banner-nizar ul li a {
+    color: white;
+    text-decoration: underline;
+    font-size: 12px;
+  }
+  /* #banner-text{
     margin-bottom: 2px;
     color: white;
     font-size: 0.75rem;
@@ -31,7 +44,7 @@
     height: 18px;
     width: 18px;
     margin-right: 10.5px;
-  }
+  } */
 
 
   a {
