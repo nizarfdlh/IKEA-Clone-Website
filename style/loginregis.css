@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-.container {
+.container-nizar {
     max-width: 400px;
     margin: 50px auto;
     background-color: #fff;
@@ -53,16 +53,16 @@ button:hover {
     background-color: #45a049;
 }
 
-.switch-form {
+.switch-form-nizar {
     text-align: center;
     margin-top: 10px;
 }
 
-.switch-form a {
+.switch-form-nizar a {
     color: #007bff;
     text-decoration: none;
 }
 
-.switch-form a:hover {
+.switch-form-nizar a:hover {
     text-decoration: underline;
 }

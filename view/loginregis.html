@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/style/loginregis.css">
+    <script src="/script/config.js"></script>
 </head>
 <body>
-    <div class="container">
+    <div class="container-nizar">
         <h2>Login</h2>
         <form action="#" method="post">
             <label for="loginEmail">Email:</label>
@@ -19,7 +20,7 @@
             <button type="submit">Login</button>
         </form>
     
-        <div class="switch-form">
+        <div class="switch-form-nizar">
             <p>Don't have an account? <a href="#" onclick="toggleForm()">Register here</a>.</p>
         </div>
     </div>
@@ -39,25 +40,9 @@
             <button type="submit">Register</button>
         </form>
     
-        <div class="switch-form">
+        <div class="switch-form-nizar">
             <p>Already have an account? <a href="#" onclick="toggleForm()">Login here</a>.</p>
         </div>
     </div>
-    
-    <script>
-        function toggleForm() {
-            var loginForm = document.getElementById('loginForm');
-            var registerForm = document.getElementById('registerForm');
-    
-            if (loginForm.style.display === 'none') {
-                loginForm.style.display = 'block';
-                registerForm.style.display = 'none';
-            } else {
-                loginForm.style.display = 'none';
-                registerForm.style.display = 'block';
-            }
-        }
-    </script>
-    
 </body>
 </html>
