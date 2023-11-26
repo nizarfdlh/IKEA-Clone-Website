@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/bukutamu.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="banner-nizar">
+        <ul>
+            <li><a href="view/bukutamu.html">Buku tamu</a></li>
+            <li><a href="#">Program perencanaan</a></li>
+            <li><a href="#">Lacak pengiriman online</a></li>
+            <li><a href="#">Informasi toko</a></li>
+            <li><a href="#">Layanan desain interior</a></li>
+            <li><a href="#">Desain ruang gratis</a></li>
+            <li><a href="#">Kebijakan pengembalian 90 hari</a></li>
+        </ul>
+    </div>
+    <header class="header-nizar">
+        <div class="menu-nav-container-nizar">
+            <div class="nav-container-nizar">
+                <a href="#"><img class="logo" src="/images/logo.svg" alt="logo"></a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                        <li><a id="rooms" href="#">Rooms</a></li>
+                    </ul>
+                </nav>
+                <div class="search-container-nizar">
+                    <input id="myInput" onclick="search()" placeholder="What are you looking for?" type="text" class="search">
+                    <script src="script/config.js"></script>
+                </div>
+                <nav class="icons-nav-nizar">
+                    <a href="#"><img src="/images/user-icon.svg" alt="user-icon"></a>
+                    <a href="#"><img src="/images/wishlist-icon.svg" alt="wishlist-icon"></a>
+                    <a href="#"><img class="bag" src="/images/shopping-bag-icon.svg" alt="shopping-bag-icon"></a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
